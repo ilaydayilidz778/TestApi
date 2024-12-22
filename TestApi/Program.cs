@@ -16,9 +16,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-//app.UseHttpsRedirection();
-
-app.Urls.Add("http://*:1000");
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
